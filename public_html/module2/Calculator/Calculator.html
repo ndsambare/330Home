@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Caclulator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <form action="Calculator.php" name = "input" method = "get"> 
+        <div class = "nums">
+        <div class=oneNum>
+            First Number: <input id="uno" type="text" name="num1">
+        </div>
+        
+        <div class=twoNum>
+            Second Number: <input id="dos" type="text" name="num2">
+        </div>
+
+        </div>
+
+    
+     <div class = "oppys">
+            Operand: <input value="addition" id="addition" type="radio" name="oppy">
+            <label for="addition">+</label><br>
+            Operand: <input value="subtraction" id="subtratction" type="radio" name="oppy">
+            <label for="subtratction">-</label><br>
+            Operand: <input value="multiplication" id="multiplication" type="radio" name="oppy">
+            <label for="multiplication"> X </label><br>
+            Operand: <input value="division" id="division" type="radio" name="oppy">
+            <label for="division">/</label><br>
+            
+            <input id="equalizer" type="submit" value="Get the calculation!">
+
+     </div>
+  
+    </form>
+    
+</body>
+</html>

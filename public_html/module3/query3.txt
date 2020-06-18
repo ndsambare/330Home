@@ -1,0 +1,8 @@
+select students.first_name, students.last_name, students.id, grade from grades join students on (students.id = grades.student_id) where grades.course_code ='330S';
++------------+-----------+-----+--------+
+| first_name | last_name | id  | grade  |
++------------+-----------+-----+--------+
+| Matt       | Freeman   | 202 | 100.00 |
+| Ben        | Harper    |  88 |  35.50 |
+| Marc       | Roberge   | 115 |  75.00 |
++------------+-----------+-----+--------+
