@@ -191,3 +191,64 @@ cd mysql_data
 ls
 vim grades.txt
 vim courses.txt
+mysql -u wustl_inst -p wustl
+exit
+ls
+cd public_html
+ls
+mkdir module3
+ls
+cd module2
+cd ..
+ls
+cd module3
+ls
+touch query1.txt
+touch query2.txt
+touch query3.txt
+touch query4.txt
+touch query5.txt
+ls
+vim query1.txt
+cd ..
+git status
+cd ..
+git stats
+git status
+cd public_html
+cd module3
+ls
+vim query2.txt
+vim query3.txt
+vim query2.txt
+vim query1.txt
+vim query4.txt
+vim query5.txt
+cd ..
+git init
+git add --all
+git add -A
+git commit -m "Home Folder is Root"
+git remote add origin https://github.com/ndsambare/330Home.git
+git push -u origin master
+git clone --recurse-public_html
+git clone --recurse-submodules
+cd public_html
+rm -rf .git
+ls
+cd ..
+git add -A
+git commit -m "Step two"
+git remote add origin https://github.com/ndsambare/330Home.git
+rm rf .git
+rm -rf .git
+git init
+git add -A
+git commit -m "Home folder root"
+git remote add origin https://github.com/ndsambare/330Home.git
+git push -u origin master
+exit
+mysql -u wustl_inst 
+mysql -u wustl_inst -p
+mysql -u wustl_inst -p notReddit
+exit
