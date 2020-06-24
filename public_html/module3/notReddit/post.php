@@ -1,2 +1,8 @@
+
+<?php
+
 $id = $_GET('id');
-console.log($id);
+echo $id;
+
+
+?>
