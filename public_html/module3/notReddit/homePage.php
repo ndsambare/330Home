@@ -12,7 +12,7 @@
 <?php
 require 'database.php';
 
-$stmt = $mysqli->prepare("select heading, link, username from posts");
+$stmt = $mysqli->prepare("select id, heading, link, username, time from posts");
 if(!$stmt){
 	printf("Query Prep Failed: %s\n", $mysqli->error);
 	exit;
@@ -20,17 +20,20 @@ if(!$stmt){
 
 $stmt->execute();
 
-$stmt->bind_result($heading, $link, $username);
+$stmt->bind_result($id, $heading, $link, $username, $time);
 
 echo "<ul>\n";
 while($stmt->fetch()){
-	printf("\t<li>%s %s</li>\n",
-		htmlspecialchars($heading),
+	printf("\t<a href='post.php?id=%u'>%s was posted by %s at the time %u</a>\n",
+        htmlspecialchars($id),
+        htmlspecialchars($heading),
         htmlspecialchars($link), 
-        htmlspecialchars($username)
+        htmlspecialchars($username),
+        htmlspecialchars($time)
 	);
 }
 echo "</ul>\n";
+
 
 $stmt->close();
 ?>
