@@ -17,9 +17,9 @@ $stmt->execute();
 
 $stmt->bind_result($id, $heading, $link, $username, $time);
 
-echo "<ul>\n";
+echo "<h3>\n";
 while($stmt->fetch()){
-	printf("\t<h3 %s \n %s \n %s \n This post was posted by %s \n at %u </h3>\n",
+	printf("\t<h3> %s \n %s \n %s \n This post was posted by %s \n at %u </h3>\n",
         htmlspecialchars($id),
         htmlspecialchars($heading),
         htmlspecialchars($link), 
@@ -27,7 +27,7 @@ while($stmt->fetch()){
         htmlspecialchars($time)
 	);
 }
-echo "</ul>\n";
+echo "</h3>\n";
 
 
 $stmt->close();
