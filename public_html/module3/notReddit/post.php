@@ -2,7 +2,7 @@
 <?php
 require 'database.php';
 
-$identification = $_GET("id");
+$identification = $_GET["id"];
 echo $identification;
 
 ?>
