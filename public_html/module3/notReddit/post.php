@@ -6,7 +6,7 @@ $identification = $_GET["id"];
 echo $identification;
 
 
-$stmt = $mysqli->prepare("select id, heading, link, username, time from posts where id = ? ");
+$stmt = $mysqli->prepare("select id, heading, link, username, time from posts where id=?");
 if(!$stmt){
 	printf("Query Prep Failed: %s\n", $mysqli->error);
 	exit;
