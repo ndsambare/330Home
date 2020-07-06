@@ -25,7 +25,7 @@ $_SESSION['username'] = "basic_bitch101";
         <div class="page__header">
             <div class="page__title">notReddit Posts</div>
             <?php if (!empty($_SESSION['username'])) { ?>
-                <form class="form" action="addpost.php">
+                <form class="form" action="addPost.php">
                     <button class="button">Submit a Post</button>
                 </form>
             <?php } ?>

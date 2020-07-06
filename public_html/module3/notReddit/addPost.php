@@ -3,7 +3,7 @@ require 'database.php';
 session_start(); 
 $_SESSION = username;
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['submit']) && !empty($_SESSION['username'])) {
     $heading = $_POST['postHeading'];
     $link = $_POST['postLink'];
     $commentary = $_POST['postCommentary'];
@@ -15,7 +15,7 @@ if(!$stmt){
 	exit;
 }
 
-$stmt->bind_param('sssi', $heading, $link, $commentary, $time);
+$stmt->bind_param('ssssi', $_SESSION['username'], $heading, $link, $commentary, $time);
 
 $stmt->execute();
 
