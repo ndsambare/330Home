@@ -23,7 +23,7 @@ session_start();
         <?php echo empty($_SESSION['status']) ? null : $_SESSION['status'] ?>
         <div class="page__header">
             <div class="page__title">notReddit Posts</div>
-            <?php if (!empty($_SESSION['userid'])) { ?>
+            <?php if (!empty($_SESSION['username'])) { ?>
                 <form class="form" action="addpost.php">
                     <button class="button">Submit a Post</button>
                 </form>
