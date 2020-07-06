@@ -14,10 +14,10 @@ $stmt->bind_result($id, $username, $comment, $posts_id);
 echo "<ul>\n";
 while($stmt->fetch()){
 	printf("\t<li>%s %s</li>\n",
-		htmlspecialchars($id),
+	
         htmlspecialchars($username),
         htmlspecialchars($comment),
-		htmlspecialchars($posts_id)
+
 	);
 }
 echo "</ul>\n";

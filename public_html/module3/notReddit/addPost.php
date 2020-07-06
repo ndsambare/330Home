@@ -1,5 +1,7 @@
 <?php
-
+require 'database.php';
+session_start(); 
+$_SESSION = username;
 
 if (isset($_POST['submit'])) {
     $heading = $_POST['postHeading'];
@@ -13,7 +15,7 @@ if(!$stmt){
 	exit;
 }
 
-$stmt->bind_param('ssssi', $heading, $link, $commentary, $time);
+$stmt->bind_param('sssi', $heading, $link, $commentary, $time);
 
 $stmt->execute();
 

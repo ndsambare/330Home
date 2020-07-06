@@ -12,6 +12,8 @@
 <?php
 require 'database.php';
 
+session_start(); 
+
 $stmt = $mysqli->prepare("select id, heading, link, username, time from posts");
 if(!$stmt){
 	printf("Query Prep Failed: %s\n", $mysqli->error);
