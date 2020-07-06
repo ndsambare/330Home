@@ -15,7 +15,7 @@
     </div>
 <?php
 require 'database.php';
-
+$_SESSION['username'] = "basic_bitch101";
 session_start(); 
 ?>
 
