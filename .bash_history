@@ -252,3 +252,57 @@ mysql -u wustl_inst
 mysql -u wustl_inst -p
 mysql -u wustl_inst -p notReddit
 exit
+ls
+cd public_html
+ls
+cd module3
+ls
+mkdir notReddit
+ls notReddit
+touch homePage.php
+ls
+rm homePage.php
+ls
+cd notReddit
+ls
+touch homePage.php
+ls
+cd ..
+git add -A
+git commit -m "Set up framework for notReddit news site"
+git push
+ls
+cd public_html
+ls
+cd module3
+ls
+cd notReddit
+ls
+touch database.php
+git push
+cd ..
+git push
+cd public_html
+cd module3
+ls
+cd notReddit
+ls
+git push
+git add -A
+git commit -m "Added database.php"
+git push
+touch comments.php
+git add -a
+git add-A
+git add -A
+git commit -m"added file"
+git push
+exi
+exit
+git pull
+exit
+git pull 
+git pull
+git pull 
+git pull
+exit
