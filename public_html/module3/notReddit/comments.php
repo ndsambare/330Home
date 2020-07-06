@@ -16,7 +16,7 @@ while($stmt->fetch()){
 	printf("\t<li>%s %s</li>\n",
 	
         htmlspecialchars($username),
-        htmlspecialchars($comment),
+        htmlspecialchars($comment)
 
 	);
 }
