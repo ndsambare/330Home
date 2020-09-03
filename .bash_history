@@ -306,3 +306,61 @@ git pull
 git pull 
 git pull
 exit
+ls
+cd public_html
+ls
+cd module3
+ls
+cd notReddit
+ls
+touch addPost.php
+touch addComment.php
+ls
+git add -A
+git commit -m"Added addComment and addPost"
+git push 
+cd ..
+cd .
+cd ..
+git pull
+ls
+cd public_html
+ls
+cd module3
+ls
+cd notReddit
+ls
+touch signup.php
+touch logout.php
+ls
+cd ..
+git add -A
+git commit -m "Added signup and logout"
+git push
+git pull 
+git pull
+exit
+cd 
+cd module3
+ls
+cd public_html
+ls
+cd module3
+ls
+cd notReddit
+ls
+touch login.php
+cd ..
+git add -A
+git commit -m "login added"
+cd public_html
+ls
+cd module3
+ls
+cd notReddit
+ls
+git add -A
+git commit -m "added login"
+git push 
+ls
+cd public_html
