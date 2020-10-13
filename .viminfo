@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1599168086,,"wq"
+|2,0,1599168734,,"wq"
 :q
 |2,0,1599165648,,"q"
 :wq!
@@ -34,34 +34,42 @@
 |3,1,36,0,1,0,1591048388,"#"
 
 # File marks:
-'0  1  0  ~/public_html/module4/regex1.txt
-|4,48,1,0,1599168086,"~/public_html/module4/regex1.txt"
-'1  1  0  ~/public_html/module4/regex2.txt
-|4,49,1,0,1599168059,"~/public_html/module4/regex2.txt"
-'2  1  19  ~/public_html/module4/regex3.txt
-|4,50,1,19,1599168038,"~/public_html/module4/regex3.txt"
-'3  1  15  ~/public_html/module4/regex1.txt
-|4,51,1,15,1599167868,"~/public_html/module4/regex1.txt"
-'4  1  20  ~/public_html/module4/regex3.txt
-|4,52,1,20,1599167819,"~/public_html/module4/regex3.txt"
-'5  1  20  ~/public_html/module4/regex2.txt
-|4,53,1,20,1599167688,"~/public_html/module4/regex2.txt"
-'6  1  19  ~/public_html/module4/regex3.txt
-|4,54,1,19,1599167218,"~/public_html/module4/regex3.txt"
+'0  1  0  ~/public_html/module4/baseball.py
+|4,48,1,0,1599168734,"~/public_html/module4/baseball.py"
+'1  1  0  ~/public_html/module4/regex1.txt
+|4,49,1,0,1599168086,"~/public_html/module4/regex1.txt"
+'2  1  0  ~/public_html/module4/regex2.txt
+|4,50,1,0,1599168059,"~/public_html/module4/regex2.txt"
+'3  1  19  ~/public_html/module4/regex3.txt
+|4,51,1,19,1599168038,"~/public_html/module4/regex3.txt"
+'4  1  15  ~/public_html/module4/regex1.txt
+|4,52,1,15,1599167868,"~/public_html/module4/regex1.txt"
+'5  1  20  ~/public_html/module4/regex3.txt
+|4,53,1,20,1599167819,"~/public_html/module4/regex3.txt"
+'6  1  20  ~/public_html/module4/regex2.txt
+|4,54,1,20,1599167688,"~/public_html/module4/regex2.txt"
 '7  1  19  ~/public_html/module4/regex3.txt
 |4,55,1,19,1599167218,"~/public_html/module4/regex3.txt"
-'8  1  21  ~/public_html/module4/regex3.txt
-|4,56,1,21,1599166753,"~/public_html/module4/regex3.txt"
+'8  1  19  ~/public_html/module4/regex3.txt
+|4,56,1,19,1599167218,"~/public_html/module4/regex3.txt"
 '9  1  21  ~/public_html/module4/regex3.txt
 |4,57,1,21,1599166753,"~/public_html/module4/regex3.txt"
 
 # Jumplist (newest first):
+-'  1  0  ~/public_html/module4/baseball.py
+|4,39,1,0,1599168734,"~/public_html/module4/baseball.py"
+-'  1  0  ~/public_html/module4/regex1.txt
+|4,39,1,0,1599168086,"~/public_html/module4/regex1.txt"
 -'  1  0  ~/public_html/module4/regex1.txt
 |4,39,1,0,1599168086,"~/public_html/module4/regex1.txt"
 -'  1  0  ~/public_html/module4/regex2.txt
 |4,39,1,0,1599168059,"~/public_html/module4/regex2.txt"
 -'  1  0  ~/public_html/module4/regex2.txt
 |4,39,1,0,1599168059,"~/public_html/module4/regex2.txt"
+-'  1  0  ~/public_html/module4/regex2.txt
+|4,39,1,0,1599168059,"~/public_html/module4/regex2.txt"
+-'  1  0  ~/public_html/module4/regex2.txt
+|4,39,1,0,1599168059,"~/public_html/module4/regex2.txt"
 -'  1  19  ~/public_html/module4/regex3.txt
 |4,39,1,19,1599168038,"~/public_html/module4/regex3.txt"
 -'  1  19  ~/public_html/module4/regex3.txt
@@ -70,6 +78,22 @@
 |4,39,1,19,1599168038,"~/public_html/module4/regex3.txt"
 -'  1  19  ~/public_html/module4/regex3.txt
 |4,39,1,19,1599168038,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599168038,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599168038,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599168038,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599168038,"~/public_html/module4/regex3.txt"
+-'  1  15  ~/public_html/module4/regex1.txt
+|4,39,1,15,1599167868,"~/public_html/module4/regex1.txt"
+-'  1  15  ~/public_html/module4/regex1.txt
+|4,39,1,15,1599167868,"~/public_html/module4/regex1.txt"
+-'  1  15  ~/public_html/module4/regex1.txt
+|4,39,1,15,1599167868,"~/public_html/module4/regex1.txt"
+-'  1  15  ~/public_html/module4/regex1.txt
+|4,39,1,15,1599167868,"~/public_html/module4/regex1.txt"
 -'  1  15  ~/public_html/module4/regex1.txt
 |4,39,1,15,1599167868,"~/public_html/module4/regex1.txt"
 -'  1  15  ~/public_html/module4/regex1.txt
@@ -94,6 +118,54 @@
 |4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
 -'  1  20  ~/public_html/module4/regex3.txt
 |4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex3.txt
+|4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex3.txt
+|4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex3.txt
+|4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex3.txt
+|4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex3.txt
+|4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex3.txt
+|4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex3.txt
+|4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex3.txt
+|4,39,1,20,1599167819,"~/public_html/module4/regex3.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
+-'  1  20  ~/public_html/module4/regex2.txt
+|4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
 -'  1  20  ~/public_html/module4/regex2.txt
 |4,39,1,20,1599167688,"~/public_html/module4/regex2.txt"
 -'  1  20  ~/public_html/module4/regex2.txt
@@ -158,106 +230,38 @@
 |4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
 -'  1  19  ~/public_html/module4/regex3.txt
 |4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  21  ~/public_html/module4/regex3.txt
-|4,39,1,21,1599166753,"~/public_html/module4/regex3.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
--'  1  20  ~/public_html/module4/regex2.txt
-|4,39,1,20,1599166576,"~/public_html/module4/regex2.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
+-'  1  19  ~/public_html/module4/regex3.txt
+|4,39,1,19,1599167218,"~/public_html/module4/regex3.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/public_html/module4/baseball.py
+	*	1599168733	0
+	"	1	0
 
 > ~/public_html/module4/regex1.txt
 	*	1599168083	0

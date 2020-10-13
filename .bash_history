@@ -364,3 +364,57 @@ git commit -m "added login"
 git push 
 ls
 cd public_html
+ls
+cd public_html
+ls
+mkdir module4
+ls
+cd module4
+touch regex1.txt
+ls
+touch regex2.txt
+touch regex3.txt
+vim regex1.txt
+vim regex1.txgt
+vim regex1.txt
+vim regex2.txt
+vim regex3.txt
+vim regex2.txt
+vim regex3.txt
+vim regex1.txt
+vim regex3.txt
+vim regex2.txt
+vim regex1.txt
+ls
+//
+..
+cd ..
+ls
+cd ..
+ls
+git commit -m "Regex Expressions"
+git add -A
+git commit -m "Regex Expressions"
+git push 
+ls
+github pull from upstream
+git pull from upstream
+git pull 
+ls
+cd public_html
+ls
+cd module4
+ls
+vim baseball.py
+cd ..
+exit
+ls
+git pull
+exit
+ls
+cd public_html
+ls
+exit
+mysql
+mysql wustl_inst
+mysql -u wustl_inst -p wustl
