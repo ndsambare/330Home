@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Caclulator</title>
+    <link rel="stylesheet" href="calcStyling.css">
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+        <div class = "nums">
+        <div class=oneNum>
+            First Number: <input id="uno" type="number" name="num1">
+        </div>
+
+        <div class=twoNum>
+            Second Number: <input id="dos" type="number" name="num2">
+        </div>
+
+        </div>
+
+
+     <div class = "oppys">
+            Operand: <input value="addition" id="addition" type="radio" name="oppy">
+            <label for="addition">+</label><br>
+            Operand: <input value="subtraction" id="subtraction" type="radio" name="oppy">
+            <label for="subtraction">-</label><br>
+            Operand: <input value="multiplication" id="multiplication" type="radio" name="oppy">
+            <label for="multiplication"> X </label><br>
+            Operand: <input value="division" id="division" type="radio" name="oppy">
+            <label for="division">/</label><br>
+
+     </div>
+
+<div class="answer">
+  <h3>And the answer is...</h3>
+</div>
+     <div id = "answerBox" class="answerB">
+
+
+
+     </div>
+
+
+
+     <script>
+     console.log("hello");
+       document.getElementById('addition').addEventListener("click", calculation, false);
+       document.getElementById('subtraction').addEventListener("click", calculation, false);
+       document.getElementById('multiplication').addEventListener("click", calculation, false);
+       document.getElementById('division').addEventListener("click", calculation, false);
+       document.getElementById('uno').addEventListener("keyup", calculation, false);
+       document.getElementById('dos').addEventListener("keyup", calculation, false);
+
+       var first = document.getElementById("uno")
+
+       var firstInput =   parseInt(document.getElementById("uno").value)
+       console.log(document.getElementById("uno"))
+       var secondInput = parseInt(document.getElementById('dos').value)
+        var addButton =   document.getElementById('addition')
+        var subButton = document.getElementById('subtraction')
+        var divButton =   document.getElementById('division')
+        var multButton =    document.getElementById('multiplication')
+
+     var buttons = document.getElementsByName("oppy")
+
+
+     function getOperator() {
+       console.log("in get operation function")
+       let buttons = document.getElementsByName("oppy")
+       console.log(buttons);
+       for (let i = 0; i < buttons.length; i++) {
+         if(buttons[i].checked) {
+           console.log(buttons[i]);
+           return buttons[i].value
+           break;
+         }
+
+
+       }
+     }
+
+     function calculation() {
+     let numOne = parseInt(document.getElementById('uno').value)
+     let numTwo = parseInt(document.getElementById('dos').value)
+     let op = getOperator()
+
+if (numOne == null || numTwo == null || op == null) {
+  answerBox.textContent = "You must have all correct inputs for this to work!"
+}
+
+     if (op == "addition") {
+     var result = numOne + numTwo
+     answerBox.textContent = result
+     } else if (op == "subtraction") {
+     var result = numOne - numTwo
+     answerBox.textContent = result
+     } else if (op == "division") {
+    if (numTwo == 0) {
+      var res = "Cannot divide by zero bro"
+      answerBox.textContent = res
+    } else {
+      var result = numOne/numTwo
+      answerBox.textContent = result
+    }
+     } else if (op == "multiplication") {
+     var result = numOne * numTwo
+     answerBox.textContent = result
+     }
+
+
+
+   }
+
+     </script>
+
+
+
+
+</body>
+
+
+
+
+
+</html>

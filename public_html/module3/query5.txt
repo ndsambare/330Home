@@ -1,6 +1,0 @@
- select students.first_name, students.last_name, students.email_address, avg(grade) as avg_grade from grades join students on (students.id = grades.student_id) group by email_address having students.first_name = 'Jack 'AND students.last_name = 'Johnson';
-+------------+-----------+------------------------------+-----------+
-| first_name | last_name | email_address                | avg_grade |
-+------------+-----------+------------------------------+-----------+
-| Jack       | Johnson   | jjmuzak@brushfirerecords.com | 96.125000 |
-+------------+-----------+------------------------------+-----------+
