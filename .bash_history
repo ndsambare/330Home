@@ -418,3 +418,26 @@ exit
 mysql
 mysql wustl_inst
 mysql -u wustl_inst -p wustl
+exit
+ls
+cd public_html
+ls
+cd module3
+ls
+touch students.sql
+touch grades.sql
+touch courses.sql
+touch departments.sql
+ls
+git add -A
+git commit -m "Added sql files"
+git push
+git push 
+git push
+git pull
+git push
+mysql -u wustl_inst -p wustl
+ls
+cd public_html
+ls
+mkdir module5
