@@ -39,9 +39,9 @@ function storeWeather(event) {
   let temperature = weatherDiv.getElementsByClassName('weather-temp')[0];
   temperature.innerHTML = weatherData.current.temp;
   let tomorrow = weatherDiv.getElementsByClassName('weather-tomorrow')[0];
-  tomorrow.src = `http://us.yimg.com/i/us/nws/weather/gr/${data.tomorrow.code}ds.png`;
+  tomorrow.src = `http://us.yimg.com/i/us/nws/weather/gr/${weatherData.tomorrow.code}ds.png`;
   let afterTomorrow = weatherDiv.getElementsByClassName('weather-dayaftertomorrow')[0];
-  afterTomorrow.src = `http://us.yimg.com/i/us/nws/weather/gr/${data.dayafter.code}ds.png`;
+  afterTomorrow.src = `http://us.yimg.com/i/us/nws/weather/gr/${weatherData.dayafter.code}ds.png`;
 
 
 }
