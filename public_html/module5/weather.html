@@ -35,7 +35,7 @@ function storeWeather(event) {
   let location = weatherDiv.getElementsByClassName('weather-loc')[0];
   let city = weatherData.location.city
   let state = weatherData.location.state
-  location.innerHTML = `<p> <strong> ${city} </strong> , ${state}</p>`;
+  location.innerHTML = `<p> <strong> ${city} </strong>, ${state}</p>`;
   let humidity = weatherDiv.getElementsByClassName('weather-humidity')[0];
   humidity.innerHTML = weatherData.atmosphere.humidity;
   let temperature = weatherDiv.getElementsByClassName('weather-temp')[0];
