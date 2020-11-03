@@ -23,7 +23,7 @@
 <script>
 function fetchWeather() {
     var xmlHttp = new XMLHttpRequest();
-     xmlHttp.open("GET", "http://classes.engineering.wustl.edu/cse330/content/weather_json.php", true);
+     xmlHttp.open("GET", "https://classes.engineering.wustl.edu/cse330/content/weather_json.php", true);
      xmlHttp.addEventListener("load", storeWeather, false);
      xmlHttp.send(null);
 }
