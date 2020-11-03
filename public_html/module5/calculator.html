@@ -60,17 +60,17 @@
        document.getElementById('uno').addEventListener("keyup", calculation, false);
        document.getElementById('dos').addEventListener("keyup", calculation, false);
 
-       var first = document.getElementById("uno")
+       let first = document.getElementById("uno")
 
-       var firstInput =   parseInt(document.getElementById("uno").value)
+       let firstInput =   parseInt(document.getElementById("uno").value)
        console.log(document.getElementById("uno"))
-       var secondInput = parseInt(document.getElementById('dos').value)
-        var addButton =   document.getElementById('addition')
-        var subButton = document.getElementById('subtraction')
-        var divButton =   document.getElementById('division')
-        var multButton =    document.getElementById('multiplication')
+       let secondInput = parseInt(document.getElementById('dos').value)
+        let addButton =   document.getElementById('addition')
+        let subButton = document.getElementById('subtraction')
+        let divButton =   document.getElementById('division')
+        let multButton =    document.getElementById('multiplication')
 
-     var buttons = document.getElementsByName("oppy")
+     let buttons = document.getElementsByName("oppy")
 
 
      function getOperator() {
@@ -98,21 +98,21 @@ if (numOne == null || numTwo == null || op == null) {
 }
 
      if (op == "addition") {
-     var result = numOne + numTwo
+     let result = numOne + numTwo
      answerBox.textContent = result
      } else if (op == "subtraction") {
-     var result = numOne - numTwo
+     let result = numOne - numTwo
      answerBox.textContent = result
      } else if (op == "division") {
     if (numTwo == 0) {
-      var res = "Cannot divide by zero bro"
+      let res = "Cannot divide by zero bro"
       answerBox.textContent = res
     } else {
-      var result = numOne/numTwo
+      let result = numOne/numTwo
       answerBox.textContent = result
     }
      } else if (op == "multiplication") {
-     var result = numOne * numTwo
+     let result = numOne * numTwo
      answerBox.textContent = result
      }
 
