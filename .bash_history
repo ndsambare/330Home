@@ -441,3 +441,23 @@ ls
 cd public_html
 ls
 mkdir module5
+ls
+public_html
+ls
+cd public_html
+ls
+cd module5
+ls
+touch calculator.html
+touch calcStyling.css
+touch calcScript.js
+ls
+git add -A
+git commit -m "Files for Mod5"
+git push
+git pull
+ls
+git add -A
+git commit -m "Files"
+git push
+git pull
