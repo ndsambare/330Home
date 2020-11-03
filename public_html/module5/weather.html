@@ -29,6 +29,7 @@ function fetchWeather() {
 }
 
 function storeWeather(event) {
+  console.log("in store weather");
   let weatherData = JSON.parse(event.target.responseText);
   let weatherDiv = document.getElementById('weatherWidget');
   let location = weatherDiv.getElementsByClassName('weather-loc')[0];
