@@ -33,7 +33,7 @@ function storeWeather(event) {
   let weatherData = JSON.parse(event.target.responseText);
   let weatherDiv = document.getElementById('weatherWidget');
   let location = weatherDiv.getElementsByClassName('weather-loc')[0];
-  location..innerHTML = (weatherData.location.city).strong() + "," + weatherData.location.state;
+  location.innerHTML = (weatherData.location.city).strong() + "," + weatherData.location.state;
   let humidity = weatherDiv.getElementsByClassName('weather-humidity')[0];
   humidity.innerHTML = weatherData.atmosphere.humidity;
   let temperature = weatherDiv.getElementsByClassName('weather-temp')[0];
