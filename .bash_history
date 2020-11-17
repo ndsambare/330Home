@@ -461,3 +461,20 @@ git add -A
 git commit -m "Files"
 git push
 git pull
+ls
+cd public_html
+ls
+cd module5
+ls
+touch weather.html
+touch weatherStyle.css
+rm calcScript.js
+ls
+cd ..
+git add -A
+git commit -m "Added files for weather widget"
+git push 
+git add -A
+git commit -m "update"
+git push
+git pull
